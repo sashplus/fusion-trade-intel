@@ -1,12 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { TradingHero } from "@/components/TradingHero";
+import { NewsFeed } from "@/components/NewsFeed";
+import { TradingSignals } from "@/components/TradingSignals";
+import { MarketOverview } from "@/components/MarketOverview";
+import { AnalysisEngine } from "@/components/AnalysisEngine";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      {/* Hero Section */}
+      <TradingHero />
+      
+      {/* Dashboard Section */}
+      <section className="py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-3 gap-8">
+            {/* Main Content */}
+            <div className="lg:col-span-2 space-y-8">
+              <TradingSignals />
+              <AnalysisEngine />
+            </div>
+            
+            {/* Sidebar */}
+            <div className="space-y-8">
+              <MarketOverview />
+              <NewsFeed />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
