@@ -76,8 +76,9 @@ export default {
 				}
 			},
 			fontFamily: {
-				trading: ['JetBrains Mono', 'Fira Code', 'SF Mono', 'Consolas', 'monospace'],
-				display: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif']
+				sans: ['Outfit', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+				trading: ['Space Grotesk', 'JetBrains Mono', 'Fira Code', 'SF Mono', 'Consolas', 'monospace'],
+				display: ['Space Grotesk', 'Outfit', 'system-ui', '-apple-system', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
