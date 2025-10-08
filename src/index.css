@@ -111,18 +111,17 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-background text-foreground font-mono;
   }
 
   /* Trading Platform Typography */
   .font-trading {
-    font-family: 'Space Grotesk', 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+    font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
     font-feature-settings: 'tnum' 1, 'zero' 1;
-    font-weight: 400;
   }
 
   .font-display {
-    font-family: 'Space Grotesk', 'Outfit', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
     font-weight: 600;
     letter-spacing: -0.025em;
   }
