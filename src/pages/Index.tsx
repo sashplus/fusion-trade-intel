@@ -3,12 +3,16 @@ import { NewsFeed } from "@/components/NewsFeed";
 import { TradingSignals } from "@/components/TradingSignals";
 import { MarketOverview } from "@/components/MarketOverview";
 import { AnalysisEngine } from "@/components/AnalysisEngine";
+import { OnChainAnalytics } from "@/components/OnChainAnalytics";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <TradingHero />
+      
+      {/* On-Chain Analytics Section */}
+      <OnChainAnalytics />
       
       {/* Dashboard Section */}
       <section className="py-20 px-6">
