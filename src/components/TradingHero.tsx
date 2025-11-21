@@ -67,10 +67,6 @@ export const TradingHero = () => {
                 <Shield className="w-4 h-4 text-accent" />
                 <span className="text-sm font-medium">Risk Management</span>
               </div>
-              <div className="flex items-center space-x-2 px-4 py-2 rounded-full bg-card border border-border">
-                <Shield className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium">On-Chain Analytics</span>
-              </div>
             </div>
           </div>
 
